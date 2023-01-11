@@ -48,3 +48,7 @@
 - ` $ git push origin master` : github에 파일 모두 올리기
   - origin : 로컬 폴더에서 깃헙 레포로 보낼 때 통로의 별명(branch)
   - master : origin 통로의 이름(main)
+- `$ git clone [나의 github repo 주소]` : (주소 끝에는 .git 붙여야함)
+  - 폴더를 만들지 않고도 바로 내려받을 수 있다.
+  - A가 A꺼를 clone 받았다 -> `add` `commit` `push`
+  - B가 A꺼를 clone 받았다 -> `pull request` 활용하여 요청가능 == B의 코드를 A의 레포에 반영하고 싶을 때
