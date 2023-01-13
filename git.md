@@ -24,7 +24,11 @@
 
 ## git으로 작업할 때
 
-- `git status` : git으로 관리되고 있는 폴더의 현황 조회
+- `git status` : 
+
+  - git으로 관리되고 있는 폴더의 현황 조회
+
+  - commit 전단계까지만 확인 가능!
 
 - `git add` : git 에게 traking을 요청
 
@@ -43,7 +47,10 @@
   - 커밋 메시지
     - 명령조로 작성한다.
 
-
+- `git log`
+  - commit 남긴 후에만 확인 가능.
+  - 커밋 메시지 확인
+  - `git log --oneline`
 
 - ` $ git push origin master` : github에 파일 모두 올리기
   - origin : 로컬 폴더에서 깃헙 레포로 보낼 때 통로의 별명(branch)
