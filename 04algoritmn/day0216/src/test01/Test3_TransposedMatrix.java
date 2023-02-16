@@ -25,7 +25,8 @@ public class Test3_TransposedMatrix {
 			System.out.println(Arrays.toString(a));
 		}
 
-		//윗삼각형 영역
+		// if문을 쓰기 싫다면?
+		// 윗삼각형 영역
 //		for (int i = 0; i < N; i++) {
 //			for (int j = i + 1; j < N; j++) {
 //				int tmp = arr[i][j];
