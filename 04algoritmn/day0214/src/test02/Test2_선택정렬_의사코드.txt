@@ -1,0 +1,12 @@
+SelectionSort(A)
+	A : 주어진 배열
+	n : A.length, 배열 A의 원소의 개수
+	
+	// 패스는 n-1회 반복
+	for i from 0 to n-2 // 또는 1 to n-1
+		minIdx = i // 매 패스마다 첫번째 원소를 최소값으로 가정
+		for j from i + 1 to n-1
+			if A[j] < A[minIdx] then
+				minIdx = j
+			
+		swap(A[minIdx], a[i])

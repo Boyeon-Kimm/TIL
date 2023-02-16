@@ -1,0 +1,9 @@
+Select(int[] nums, k)
+	for i from 1 to k {
+		minIdx = i
+		for j from i+1 to k
+			if nums[minIdx] > nums[j] {
+			minIdx = j;
+		
+		swap(nums[i], nums[minIdx]);
+	return k;

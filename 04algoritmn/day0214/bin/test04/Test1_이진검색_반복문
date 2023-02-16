@@ -1,0 +1,18 @@
+// 찾았으면 true, 못찾았으면 false를 반환한다.
+
+binarySearch(A, key)
+	A ← 주어진 배열
+	n ← 주어진 배열의 크기
+	key ← 찾고자 하는 값
+	
+	start ← 0
+	end ← n - 1
+	
+	while(start <= end) {
+		middle ← (start + end) / 2
+		
+		if(A[middle] == key) return true;
+		else if(A[middle] > key) end = middle - 1;
+		else start = middle + 1;
+	}
+	return false;
