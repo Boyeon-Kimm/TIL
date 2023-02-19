@@ -1,0 +1,47 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Swea2001 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		// T번의 테스트
+		for(int tc = 1; tc <= T; tc++) {
+			int n = sc.nextInt();
+			int m = sc.nextInt();
+			
+			int[][] arr = new int[n][n];
+			
+			// 배열에 파리 갯수 입력
+			for(int i = 0; i < n; i++) {
+				for(int j = 0; j < n; j++) {
+					arr[i][j] = sc.nextInt();
+				}
+			}
+			
+			// 최대값
+			int max = 0;
+			// 잡은 파리수 세기 위해 배열의 길이에서
+			// 잡은 파리수 확인할 길이 뺀 만큼 돌기
+			for(int i = 0; i <= n-m; i++) {
+				for(int j = 0; j <= n-m; j++) {
+					// 잡은 파리 수 초기화
+					int sum = 0;
+					// 입력받은 m만큼 m * m 돌며 잡은 파리 더하기
+					for(int k = 0; k < m; k++) {
+						for(int q = 0; q < m; q++) {
+							int nr = q + i;
+							int nc = k + j;
+							sum += arr[nr][nc];
+						}
+					}
+					// 잡은 파리 수 중 최댓값 구하기
+					if(max < sum) max = sum;
+				}
+			}
+			System.out.println("#"+tc+" "+max);
+		}
+		
+	}
+}
