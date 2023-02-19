@@ -24,9 +24,7 @@ public class Swea1979 {
 					// 배열에 1또는 0 입력받기
 					puzzle[j][k] = sc.nextInt();
 					// 현재 위치가 1이라면 카운트
-					if(puzzle[j][k] == 1) {
-						count++;
-					}
+					if(puzzle[j][k] == 1) count++;
 					// 현재 위치가 0이거나, 배열의 끝일 때
 					// 문자의 길이와 카운트 숫자가 일치한다면 입력가능횟수 ++
 					if(puzzle[j][k] == 0 || k == N - 1) {
@@ -40,9 +38,7 @@ public class Swea1979 {
 			for(int j = 0; j < puzzle.length; j++) {
 				int count = 0;
 				for(int k = 0; k < puzzle.length; k++) {
-					if(puzzle[k][j] == 1) {
-						count++;
-					} 
+					if(puzzle[k][j] == 1) count++;
 					if(puzzle[k][j] == 0 || k == N - 1){
 						if(count == numK) result++;
 						count = 0;
