@@ -17,16 +17,12 @@ public class Swea1979 {
 			// 문자 입력 가능한 횟수
 			int result = 0;
 			
-			// 배열에 1또는 0 입력받기
-			for(int j = 0; j < puzzle.length; j++) {
-				for(int k = 0; k < puzzle.length; k++) {
-					puzzle[j][k] = sc.nextInt();
-				}
-			}
 			// 행에서 단어 들어갈 수 있는 곳 찾기
 			for(int j = 0; j < puzzle.length; j++) {
 				int count = 0;
 				for(int k = 0; k < puzzle.length; k++) {
+					// 배열에 1또는 0 입력받기
+					puzzle[j][k] = sc.nextInt();
 					// 현재 위치가 1이라면 카운트
 					if(puzzle[j][k] == 1) {
 						count++;
