@@ -25,11 +25,11 @@
 
 - 리스트의 처음 노드를 가리키는 레퍼런스
 
-![Untitled](2023%2002%2024%20e8976f5c7cf94ef686a97e6436bb5867/Untitled.png)
+![Untitled](./20230224_LinkedList_data/Untitled.png)
 
 ### ArrayList & LinkedList & Vector 시간 비교
 
-![Untitled](2023%2002%2024%20e8976f5c7cf94ef686a97e6436bb5867/Untitled%201.png)
+![Untitled](./20230224_LinkedList_data/Untitled%201.png)
 
 ```java
 package test00;
@@ -107,7 +107,7 @@ public class Test02 {
 - 최종적으로 NULL을 가리키는 노드가 리스트의 가장 마지막 노드이다.
 - 다음 노드에 접근하기 위해서는 직전 노드를 통해서 접근할 수 밖에 없다.
 
-![Untitled](2023%2002%2024%20e8976f5c7cf94ef686a97e6436bb5867/Untitled%202.png)
+![Untitled](./20230224_LinkedList_data/Untitled%202.png)
 
 ### ‘A’, ‘C’, ‘D’를 원소로 갖고 있는 리스트의 두번째에 ‘B’ 노드를 삽입할 때
 
@@ -199,11 +199,11 @@ delete(L, pre) {                // 리스트 L, 노드 pre
 - 양쪽 방향으로 순회할 수 있도록 노드를 연결한 리스트
 - 두 개의 링크 필드와 한 개의 데이터 필드로 구성
 
-![Untitled](2023%2002%2024%20e8976f5c7cf94ef686a97e6436bb5867/Untitled%203.png)
+![Untitled](./20230224_LinkedList_data/Untitled%203.png)
 
 ### 연결 구조
 
-![Untitled](2023%2002%2024%20e8976f5c7cf94ef686a97e6436bb5867/Untitled%204.png)
+![Untitled](./20230224_LinkedList_data/Untitled%204.png)
 
 ### cur가 가리키는 노드 다음으로 D값을 가진 노드를 삽입하는 과정
 
