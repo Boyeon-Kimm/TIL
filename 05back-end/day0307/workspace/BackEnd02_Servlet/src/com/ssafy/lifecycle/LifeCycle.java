@@ -8,21 +8,26 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.tomcat.util.digester.SystemPropertySource;
+
 /**
  * Servlet implementation class LifeCycle
  */
 @WebServlet("/LifeCycle")
 public class LifeCycle extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+     
+	// 이러한 변수들을 
 	int initCount = 1;
 	int doGetCount = 1;
 	int destroyCount = 1;
+	
     /**
      * @see HttpServlet#HttpServlet()
      */
+	
     public LifeCycle() {
-    	System.out.println("생성자 호출");
+        System.out.println("생성자 호출");
     }
 
 	/**
@@ -36,7 +41,7 @@ public class LifeCycle extends HttpServlet {
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		System.out.println("destroy 메서드 호출" + (destroyCount++));
+		System.out.println("destroy 메서드 호출 " + (destroyCount++));
 	}
 
 	/**

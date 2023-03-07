@@ -1,6 +1,5 @@
 package com.ssafy.hello;
 
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -25,9 +24,6 @@ public class HelloServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
 		writer.append("<html>");
@@ -38,14 +34,6 @@ public class HelloServlet extends HttpServlet {
 		writer.append("<h1>Hello Servlet!</h1>");
 		writer.append("</body>");
 		writer.append("</html>");
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
 	}
 
 }

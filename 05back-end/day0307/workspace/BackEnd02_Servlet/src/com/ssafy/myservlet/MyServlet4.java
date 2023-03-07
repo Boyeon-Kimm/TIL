@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-// web.xml을 이용하여 직접 등록함. 경로는 /MyServlet
+// web.xml을 이용하여 직접 등록함 경로는 /MyServlet
 public class MyServlet4 extends HttpServlet{
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
@@ -17,7 +17,7 @@ public class MyServlet4 extends HttpServlet{
 		writer.append("<title>Hello</title>");
 		writer.append("</head>");
 		writer.append("<body>");
-		writer.append("<h1>My Servlet4</h1>");
+		writer.append("<h1>MyServlet4</h1>");
 		writer.append("</body>");
 		writer.append("</html>");
 	}

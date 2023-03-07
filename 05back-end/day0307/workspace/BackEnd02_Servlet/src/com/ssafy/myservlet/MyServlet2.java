@@ -7,13 +7,17 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-// GenericServlet = 추상클래스
-public class MyServlet2 extends GenericServlet {
+// GenericServlet 추상클래스
+public class MyServlet2 extends GenericServlet{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		// 서비스만 구현하면 OK
-		// 이전의 것들은 이미 다 구현이 되어있기 때문
 		
 	}
 	
