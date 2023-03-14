@@ -6,6 +6,8 @@ FROM emp;
 -- 사원이 근무하는 부서번호
 SELECT deptno
 FROM emp;
+
+
 -- 사원이 근무하는 부서번호 (중복제거)
 SELECT DISTINCT deptno AS "부서번호"
 FROM emp;
