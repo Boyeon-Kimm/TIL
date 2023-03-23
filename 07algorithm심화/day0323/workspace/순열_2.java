@@ -23,8 +23,9 @@ public class 순열_2 {
 		// 재귀 조건
 		for(int i = idx; i < N; i++) {
 			swap(i, idx);
-			// 원상복구 하는 과정이 필요함. why?
+			// 원상복구 하는 과정이 필요함.
 			perm(idx + 1);
+			swap(i, idx); // 원상복구!
 		}
 	}
 	
