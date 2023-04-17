@@ -64,7 +64,7 @@ public boolean afterCompletion(HttpServletRequest request, HttpServletResponse r
 
 ### Interceptor 흐름
 
-![Untitled](2023%2004%2017%2083221d806f0940089a4d2b68d842f205/Untitled.png)
+![Untitled](./20230417_Interceptor_data/Untitled.png)
 
 <br>
 
