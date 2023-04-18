@@ -6,7 +6,7 @@
 
 ### MVN Repository : File Upload 검색
 
-![Untitled](2023%2004%2018%20ad978ca133d4477390197839a044ad73/Untitled.png)
+![Untitled](./20230418_fileupload_data/Untitled.png)
 
 <br>
 <br>
