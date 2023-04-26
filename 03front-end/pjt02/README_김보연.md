@@ -1161,80 +1161,80 @@ function reviewRegist7() {
 
 ### ➕ `메인 화면`
 
-![main.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/main.png)
+![main.png](./README_김보연_data/main.png)
 <br>
 
 ### ➕ `인기영상 TOP3 화면`
 
-![top3.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/top3.png)
+![top3.png](./README_김보연_data/top3.png)
 <br>
 
 ### ➕ `전체 영상 보기 화면`
 
-![videolist.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/videolist.png)
+![videolist.png](./README_김보연_data/videolist.png)
 <br>
 
 ### ➕ `영상 클릭 시 화면`
 
-![video-detail-01noReview.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/video-detail-01noReview.png)
+![video-detail-01noReview.png](./README_김보연_data/video-detail-01noReview.png)
 <br>
 
 ### ➕ `리뷰 등록 클릭 시 화면`
 
-![video-detail-02reviewRegister.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/video-detail-02reviewRegister.png)
+![video-detail-02reviewRegister.png](./README_김보연_data/video-detail-02reviewRegister.png)
 <br>
 
 ### ➕ `닉네임과 내용 입력 화면`
 
-![video-detail-03reviewRegister.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/video-detail-03reviewRegister.png)
+![video-detail-03reviewRegister.png](./README_김보연_data/video-detail-03reviewRegister.png)
 <br>
 
 ### ➕ `리뷰 저장 시 화면`
 
-![video-detail-04reviewRegister.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/video-detail-04reviewRegister.png)
+![video-detail-04reviewRegister.png](./README_김보연_data/video-detail-04reviewRegister.png)
 <br>
 
-![video-detail-05reviewRegister.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/video-detail-05reviewRegister.png)
+![video-detail-05reviewRegister.png](./README_김보연_data/video-detail-05reviewRegister.png)
 <br>
 
 ### ➕ `리뷰 목록 화면`
 
-![video-detail-06Reviewlist.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/video-detail-06Reviewlist.png)
+![video-detail-06Reviewlist.png](./README_김보연_data/video-detail-06Reviewlist.png)
 <br>
 
 ### ➕ `로그인 화면`
 
-![login-01.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/login-01.png)
+![login-01.png](./README_김보연_data/login-01.png)
 <br>
 
-![login-02.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/login-02.png)
+![login-02.png](./README_김보연_data/login-02.png)
 <br>
 
-![login-03.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/login-03.png)
+![login-03.png](./README_김보연_data/login-03.png)
 <br>
 
 ### ➕ `회원가입 화면`
 
-![joinin-01.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/joinin-01.png)
+![joinin-01.png](./README_김보연_data/joinin-01.png)
 <br>
 
-![joinin-02.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/joinin-02.png)
+![joinin-02.png](./README_김보연_data/joinin-02.png)
 <br>
 
-![joinin-03.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/joinin-03.png)
+![joinin-03.png](./README_김보연_data/joinin-03.png)
 <br>
 
-![joinin-04.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/joinin-04.png)
+![joinin-04.png](./README_김보연_data/joinin-04.png)
 <br>
 
 ### ➕ `소개화면`
 
-![team.png](PJT02%201a524e33488041aa8fc15a14c0fce0b7/team.png)
+![team.png](./README_김보연_data/team.png)
 <br>
 
 ### ➕ `전체화면`
 
-![전체화면캡쳐.jpeg](PJT02%201a524e33488041aa8fc15a14c0fce0b7/%25EC%25A0%2584%25EC%25B2%25B4%25ED%2599%2594%25EB%25A9%25B4%25EC%25BA%25A1%25EC%25B3%2590.jpeg)
+![전체화면캡쳐.jpeg](./README_김보연_data/%25EC%25A0%2584%25EC%25B2%25B4%25ED%2599%2594%25EB%25A9%25B4%25EC%25BA%25A1%25EC%25B3%2590.jpeg)
 
 <br>
 <br>
