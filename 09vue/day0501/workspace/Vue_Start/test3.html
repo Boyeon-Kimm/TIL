@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Start</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <!-- View part -->
+    <div id="app">
+        <h2>{{msg}}</h2>
+    </div>
+
+    <!-- View Model -->
+    <script>
+      // Vue 객체 (인스턴스)를 생성
+      // method : 사용할 함수를 정의하겠다.
+      // 1. 객체 형태
+      // 2. 함수 형태 (컴포넌트를 이용하면 무조건 이렇게 만들어야 함.)
+      const app = new Vue({
+        el: "#app", // CSS 선택자
+				data(){
+					return{
+						count: 1,
+					};
+				},
+        method: {
+          plus(){
+            this.count++;
+            console.log(this); // vue 인스턴스 객체
+          },
+          // 아래의 화살표 함수는 사용하는 것을 지양해라.
+          plus2: () => {
+            this.count++;
+            console.log(this); // window 객체
+          }
+        },
+      });
+
+    </script>
+  </body>
+</html>
