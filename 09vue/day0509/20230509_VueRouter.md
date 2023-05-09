@@ -39,15 +39,15 @@ vue add router
 
 ### Vue Router 설치 CLI
 
-![Untitled](2023%2005%2009%20a9dfac3604884e5e88201c362086fc69/Untitled.png)
+![Untitled](./20230509_VueRouter_data/Untitled.png)
 
 - 권장하는 것이 대문자, 엔터 치면 N으로 적용됨
 
-![Untitled](2023%2005%2009%20a9dfac3604884e5e88201c362086fc69/Untitled%201.png)
+![Untitled](./20230509_VueRouter_data/Untitled%201.png)
 
 - 히스토리 모드 사용을 권장, 입력 없이 엔터치면 Y로 적용
 
-![Untitled](2023%2005%2009%20a9dfac3604884e5e88201c362086fc69/Untitled%202.png)
+![Untitled](./20230509_VueRouter_data/Untitled%202.png)
 
 <br>
 <br>
@@ -58,11 +58,11 @@ vue add router
 - `router/index.js` 생성
 - views 디렉토리 생성
 
-![Untitled](2023%2005%2009%20a9dfac3604884e5e88201c362086fc69/Untitled%203.png)
+![Untitled](./20230509_VueRouter_data/Untitled%203.png)
 
-![Untitled](2023%2005%2009%20a9dfac3604884e5e88201c362086fc69/Untitled%204.png)
+![Untitled](./20230509_VueRouter_data/Untitled%204.png)
 
-![Untitled](2023%2005%2009%20a9dfac3604884e5e88201c362086fc69/Untitled%205.png)
+![Untitled](./20230509_VueRouter_data/Untitled%205.png)
 
 <br>
 <br>
