@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dog API</h1>
+    <button id="btn">불러와</button>
+    <img src="" alt="" id="dog-img" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      const URL = "https://dog.ceo/api/breeds/image/random";
+
+      // function getDog() {
+      //   const xhr = new XMLHttpRequest();
+
+      //   xhr.onreadystatechange = function() {
+      //     if(xhr.readyState == xhr.DONE){
+      //       if(xhr.status == 200){
+      //         // console.log(JSON.parse(xhr.response).message)
+      //         // console.log(JSON.parse(xhr.response)['message'])
+      //         const imgSrc = JSON.parse(xhr.response)['message']
+
+      //         const imgTag = document.querySelector("#dog-img")
+      //         imgTag.src = imgSrc;
+      //         // imgTag.setAttribute("src", imgSrc)
+      //       }
+      //      }
+      //     }
+
+      //   xhr.open("GET", URL)
+      //   xhr.send();
+      // }
+
+      // Axios 사용으로 easy 하게 바뀜
+      // axios에 get요청을 URL을 담아서 보내고,
+      // 만약에 결과가 있다면 뽑아서 갈아 끼겠다
+      function getDog() {
+        axios.get(URL).then((response) => {
+          const imgSrc = response.data.message;
+          document.querySelector("#dog-img").setAttribute("src", imgSrc);
+        });
+      }
+
+      const btn = document.querySelector("#btn");
+      btn.addEventListener("click", getDog);
+    </script>
+  </body>
+</html>
