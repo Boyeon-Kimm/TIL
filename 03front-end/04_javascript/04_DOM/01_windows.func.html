@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // globalThis : ECMAScript2020(ES11)에서 도입된 전역객체 식별자
+
+      // console.log(globalThis === this);
+      // console.log(globalThis === window);
+      // console.log(globalThis === self);
+      // console.log(globalThis === frames);
+
+      // console.log(this === window);
+      // console.log(self === window);
+      // console.log(frames === window);
+
+      // window.alert("경고");
+      // this.alert("나는 window");
+      // frames.alert("나도 window");
+      // self.alert("나도 window");
+
+      // let a = window.confirm("맞으면 확인");
+      // console.log(a);
+      // if (a) {
+      //   window.alert("확인을 눌렀습니다.");
+      // } else {
+      //   window.alert("취소를 눌렀습니다.");
+      // }
+
+      // let b = window.prompt("나의 취미는?", "멍때리기");
+      // console.log(b);
+
+      // window.open("https://www.naver.com", "_blank");
+
+      // window.open("https://www.naver.com", "_self");
+
+      // window 객체의 중요한 특징1.
+      // 전역객체(window)의 프로퍼티를 참조할 때는
+      // window.을 생략할 수 있다.
+      // var num = window.parseInt("1234");
+      // console.log(typeof num);
+      // console.log(num);
+      // let num2 = parseInt("1234");
+      // console.log(num2);
+      // console.log(window.parseInt === parseInt);
+
+      // let num3 = parseFloat("134.213");
+      // let num4 = parseInt("134.123");
+      // console.log(num3);
+      // console.log(num4);
+
+      // 중요한 특징2.
+      // - var 키워드를 쓸때,
+      // - function 키워드를 쓸 때
+      // - var 키워드를 통해 선언한 전역 변수와,
+      // - function 키워드를 통해 선언한 전역 함수는,
+      // - 암묵적 전역변수: 선언하지도 않았는데 값을 할당한 변수...
+      // - window의 프로퍼티가 된다.
+
+      num5 = 1234; // 암묵적 전역변수
+
+      // console.log(window.num);
+      // console.log(window.num2);
+      console.log(window.num5);
+      // console.log(window.num88);
+
+      // window.fun1();
+      // fun1();
+
+      // function fun1() {
+      //   console.log("function 1 called.");
+      // }
+      function fun2() {
+        console.log("3초후에 호출합니다.");
+      }
+
+      function fun3() {
+        console.log("5초마다 호출합니다.");
+      }
+
+      window.setTimeout(fun2, 3000);
+      window.setInterval(fun3, 5000);
+    </script>
+  </body>
+</html>

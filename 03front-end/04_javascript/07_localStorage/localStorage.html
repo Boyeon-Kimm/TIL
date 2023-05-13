@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로컬 스토리지 실습</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="input"
+      placeholder="localStorage에 저장할 값을 입력하세요"
+    />
+    <button id="create">등록</button>
+    <button id="read">조회</button>
+    <button id="delete">삭제</button>
+    <div id="display">
+      <!-- 여기에 로컬스토리지에 저장된 값을 보여줍니다. -->
+    </div>
+    <script>
+      // 등록 이벤트 처리
+      let createBtn = document.querySelector('#create');
+      console.log(createBtn);
+      createBtn.addEventListener('click', function () {
+        // 만약에... 배열을 저장하고 싶다면??
+        // localStorage.getItem('arr');
+        // null이면 => 빈 배열을 만든다. []
+        // null이 아니면 => 해당 문자열을 파싱해서 배열로 만든다.
+        // 그 배열에다가 push 메서드로 문자열을 추가한다.
+        // JSON.stringify로 배열을 다시 문자열로 바꾼다.
+        // localStorage.setItem('arr', str);
+
+        console.log('click event 발생');
+        // input 태그에 있는 값을 꺼내와서...
+        let inputTag = document.querySelector('#input');
+        // .value 속성을 이용해 값을 얻어올 수 있어요.
+        console.log(inputTag.value);
+
+        // 왠만하면 JSON 객체를 이용해서 json 문자열로 바꾼뒤에
+        // localStorage에 넣으면..
+        // 객체, 배열, -> 문자열로 바꿔야됨
+        let jsonStr = JSON.stringify(inputTag.value);
+
+        // localStorage에 집어넣어야..
+        // 로컬스토리지에는 값이 문자열로만 저장됨!
+        // setItem(키, 값)
+        localStorage.setItem('data', jsonStr);
+      });
+
+      // 조회 이벤트
+      let readBtn = document.querySelector('#read');
+      readBtn.addEventListener('click', function () {
+        // localStorage에 있는 값을 가져온다.
+        let str = localStorage.getItem('data');
+        // let은 블록스코프이므로,
+        // 하위의 두개 블록에서 모두 보이고 싶다면
+        // 상위 블록으로 빼야 함
+        let displayDiv = document.querySelector('#display');
+
+        // 없으면 null이므로 null 체크를 한다.
+        if (str != null) {
+          // 해당하는 key의 값이 존재한다면,
+          // div#display 여기에 다가 값을 표시한다.
+          // 정규표현식으로 제거한다.
+          // Regexp
+          // str.replace(/찾을 문자열/g, "변경할 문자열")
+          // g : global 모두 바꾼다.
+          str = str.replace(/\"/g, '');
+          displayDiv.innerText = str;
+        } else {
+          // 해당하는 key의 값이 없다면
+          displayDiv.innerText = '해당하는 key의 값이 없어요.';
+        }
+      });
+
+      // 삭제 이벤트 처리
+      let deleteBtn = document.querySelector('#delete');
+      deleteBtn.addEventListener('click', deleteHandler);
+
+      function deleteHandler() {
+        // 값을 삭제
+        localStorage.removeItem('data');
+      }
+
+      // 하나의 문자열 => 문자열의 배열?
+      // 실습시간에 도전!
+    </script>
+  </body>
+</html>
