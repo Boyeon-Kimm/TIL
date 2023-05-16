@@ -8,7 +8,7 @@
 
 - [https://www.themoviedb.org/](https://www.themoviedb.org/)
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled.png)
 
 <br>
 <br>
@@ -17,11 +17,11 @@
 
 - 로그인 → 프로필 → 설정 → API → Developer → 폼 작성
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%201.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%201.png)
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%202.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%202.png)
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%203.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%203.png)
 
 <br>
 <br>
@@ -30,11 +30,11 @@
 
 ## Vue BootStrap
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%204.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%204.png)
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%205.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%205.png)
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%206.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%206.png)
 
 <br>
 <br>
@@ -43,7 +43,7 @@
 
 ## Vuetify
 
-![Untitled](2023%2005%2016%20a1c43d316cb042e893f78280cc2af20b/Untitled%207.png)
+![Untitled](./20230516_vuetify_bootstrapvue_data/Untitled%207.png)
 
 ```jsx
 vue create my-app
