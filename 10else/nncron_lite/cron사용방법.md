@@ -4,25 +4,25 @@
 
 [nnSoft: download](http://www.nncron.ru/download.shtml)
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled.png)
+![Untitled](./cron_data/Untitled.png)
 
 - 두번째 파일 설치하였음.
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%201.png)
+![Untitled](./cron_data/Untitled%201.png)
 
 - 다운로드 완료 후 파일 실행.
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%202.png)
+![Untitled](./cron_data/Untitled%202.png)
 
 - 영어 선택
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%203.png)
+![Untitled](./cron_data/Untitled%203.png)
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%204.png)
+![Untitled](./cron_data/Untitled%204.png)
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%205.png)
+![Untitled](./cron_data/Untitled%205.png)
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%206.png)
+![Untitled](./cron_data/Untitled%206.png)
 
 <br>
 <br>
@@ -42,9 +42,9 @@ Cron 프로그램을 실행하는 방법은 exe 파일을 실행하지 않고, `
 
 - Cron이 설치된 폴더의 doc\help.chm 참고
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%207.png)
+![Untitled](./cron_data/Untitled%207.png)
 
-![Untitled](Cron%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8%20896a3b70c9984f10865c8227cc691d91/Untitled%208.png)
+![Untitled](./cron_data/Untitled%208.png)
 
 ✔️ ‘분, 시간, 날짜, 월, 요일’을 설정하여 특정 프로그램을 실행할 수 있게 만드는 프로그램! 
 
